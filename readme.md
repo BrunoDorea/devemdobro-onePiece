@@ -1,9 +1,8 @@
-# One Piece | Semana do Zero ao Programador Contratado
+# One Piece | 12ª Semana do Zero ao Programador Contratado
 
 [![wakatime](https://wakatime.com/badge/user/68660678-6b86-4b78-98df-f5f41a37e1bc/project/27716161-c1c4-44de-8663-08a1dfa3ded8.svg)](https://wakatime.com/badge/user/68660678-6b86-4b78-98df-f5f41a37e1bc/project/27716161-c1c4-44de-8663-08a1dfa3ded8)
 
 [![GitHub Pages](https://img.shields.io/static/v1?style=for-the-badge&message=GitHub+Pages&color=222222&logo=GitHub+Pages&logoColor=FFFFFF&label=)](https://brunodorea.github.io/)
-[![Vercel](https://img.shields.io/static/v1?style=for-the-badge&message=Vercel&color=000000&logo=Vercel&logoColor=FFFFFF&label=)](#)
 
 ## 💼 Sobre o projeto
 
