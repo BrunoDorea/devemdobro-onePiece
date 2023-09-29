@@ -1,0 +1,120 @@
+body {
+    background-color: #000;
+    color: #fff;
+    overflow: hidden;
+}
+
+main::after {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-height: 100vh;
+    min-width: 80vw;
+
+    background: linear-gradient(
+        -233deg, #000 40%,
+        rgba(0, 0, 0, 0) 65%
+    ) no-repeat;
+}
+
+main .personagem {
+    display: none;
+    height: 100vh;
+}
+
+main .personagem.selecionado {
+    display: block;
+}
+
+main .personagem .imagem {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.conteudo {
+    position: absolute;
+    top: 0;
+    left: 7.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 23.75rem;
+    min-height: 100vh;
+    z-index: 1;
+}
+
+.conteudo .logo {
+    background-image: url('../images/one-piece-logo.png');
+    background-size: cover;
+    height: 6.25rem;
+    width: 14.375rem;
+    margin-bottom: 1.25rem;
+}
+
+.conteudo .nome-personagem {
+    font-size: 3rem;
+    font-family: 'Secular One';
+    font-weight: 400;
+    margin-bottom: 1.25rem;
+}
+
+.conteudo .descricao {
+    line-height: 1.5rem;
+}
+
+.botoes {
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 11.25rem;
+    justify-content: center;
+    align-items: center;
+    gap: .625rem;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.botoes .botao {
+    border: none;
+    background: none;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.botoes .botao img {
+    border-radius: 50%;
+}
+
+.botoes .botao.selecionado {
+    transform: scale(1.2);
+    box-shadow: 0 0 10px #d9d9d9;
+}
+
+/* Cursores Personalizados */
+body {
+    cursor: url('../images/cursor/cursor.png'), default;
+}
+
+.botoes .botao.tony_cursor {
+    cursor: url('../images/cursor/cursor_tony.png'), auto;
+}
+
+.botoes .botao.zoro_cursor {
+    cursor: url('../images/cursor/cursor_zoro.png'), auto;
+}
+
+.botoes .botao.luffy_cursor {
+    cursor: url('../images/cursor/cursor_luffy.png'), auto;
+}
+
+.botoes .botao.nami_cursor {
+    cursor: url('../images/cursor/cursor_nami.png'), auto;
+}
+
+.botoes .botao.sanji_cursor {
+    cursor: url('../images/cursor/cursor_sanji.png'), auto;
+}
