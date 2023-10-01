@@ -32,7 +32,7 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 - Aula 1 - Junior
 - Aula 2 - Primeiro
-- Aula 3 - ??
+- Aula 3 - Meu
 - Live Domingo - ??
 
 ---

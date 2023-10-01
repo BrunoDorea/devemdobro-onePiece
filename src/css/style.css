@@ -80,8 +80,7 @@ main .personagem .imagem {
 
 .botoes .botao {
     border: none;
-    background: none;
-    cursor: pointer;
+    background: #000;
     border-radius: 50%;
 }
 
